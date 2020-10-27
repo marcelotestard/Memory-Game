@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <title>Memory Game</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+</head>
+<body>
+  
+  <section class="memory-game">
+    <div class="memory-card" data-framework="Pickle">
+      <img class="front-face" src="img/1.png" alt="Pickle" />
+      <img class="back-face" src="img/a.png" alt="Snuffles" />
+      <audio id="audio">
+        <source type="audio/wav" src="song.mp3">
+        </audio>
+    </div>
+    <div class="memory-card" data-framework="Pickle">
+      <img class="front-face" src="img/1.png" alt="Pickle" />
+      <img class="back-face" src="img/a.png" alt="Snuffles" />
+     
+    </div>
+
+    <div class="memory-card" data-framework="Rick">
+      <img class="front-face" src="img/2.png" alt="Rick" />
+      <img class="back-face" src="img/a.png" alt="Snuffles" />
+    </div>
+    <div class="memory-card" data-framework="Rick">
+      <img class="front-face" src="img/2.png" alt="Rick" />
+      <img class="back-face" src="img/a.png" alt="Snuffles" />
+    </div>
+
+    <div class="memory-card" data-framework="Mr Poo">
+      <img class="front-face" src="img/3.png" alt="Mr Poo" />
+      <img class="back-face" src="img/a.png" alt="Snuffles" />
+    </div>
+    <div class="memory-card" data-framework="Mr Poo">
+      <img class="front-face" src="img/3.png" alt="Mr Poo" />
+      <img class="back-face" src="img/a.png" alt="Snuffles" />
+    </div>
+
+    <div class="memory-card" data-framework="Mr Meeseeks">
+      <img class="front-face" src="img/4.png" alt="Mr Meeseeks" />
+      <img class="back-face" src="img/a.png" alt="Snuffles" />
+    </div>
+    <div class="memory-card" data-framework="Mr Meeseeks">
+      <img class="front-face" src="img/4.png" alt="Mr Meeseeks" />
+      <img class="back-face" src="img/a.png" alt="Snuffles" />
+    </div>
+
+    <div class="memory-card" data-framework="Ice Rick">
+      <img class="front-face" src="img/5.png" alt="Ice Rick" />
+      <img class="back-face" src="img/a.png" alt="Snuffles" />
+    </div>
+    <div class="memory-card" data-framework="Ice Rick">
+      <img class="front-face" src="img/5.png" alt="Ice Rick" />
+      <img class="back-face" src="img/a.png" alt="Snuffles" />
+    </div>
+
+    <div class="memory-card" data-framework="Slippery stair">
+      <img class="front-face" src="img/6.png" alt="slippery stair" />
+      <img class="back-face" src="img/a.png" alt="Snuffles" />
+    </div>
+    <div class="memory-card" data-framework="Slippery stair">
+      <img class="front-face" src="img/6.png" alt="slippery stair" />
+      <img class="back-face" src="img/a.png" alt="Snuffles" />
+    </div>
+    
+  </section>
+  
+  <!--CRONOMETRO-->
+
+  <div class="wrapper">
+    
+    <h1>A JUGAR!!!</h1>
+    <p>
+        <span id="seconds">00</span>
+        <span id="dots">:</span>
+        <span id="tens">00</span>
+    </p>
+    <button id="button-start">EMPEZAR</button>
+    <button id="button-stop">PARAR</button>
+    <button id="button-reset">REINICIAR</button>
+
+    <audio id="audio2">
+      <source type="audio/wav" src="WUBBA.mp3">
+      </audio>
+
+</div>
+<script src="stopwatch.js"></script>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
